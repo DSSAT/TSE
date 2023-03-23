@@ -1,12 +1,7 @@
 # TSE
 
 TSE June_2021 is version 1!
-TSE version 2 Test - is available in:
 
-1. https://github.com/memicemir/TSE/tree/TSE_v2_TEST_March_2023
-2. User guidlines are not ready for test version! For running and using TSE user guidlines from master branch is still relevant! 
-
-IMPORTANT: Before downoloading TSE_v2 TEST read README.md in corresponding branch!
 ---------------------------------------------------------------------------------------------------------
 Time-Series cultivar coefficient Estimator for DSSAT models.
 
