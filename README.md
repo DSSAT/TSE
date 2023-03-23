@@ -5,9 +5,7 @@ TSE June_2021 is version 1!
 ---------------------------------------------------------------------------------------------------------
 Time-Series cultivar coefficient Estimator for DSSAT models.
 
-Latest stable version: "GitHub_June_2021.zip", with correpsonding user guidelines: "TSE June 2021 - User guidlines.pdf" --> in "master" branch!
-
-Older versions in: "TSE_August_2020" and "TSE_February_2021" branches...
+Latest stable version: "GitHub_June_2021.zip", with correpsonding user guidelines: "TSE June 2021 - User guidlines.pdf"
 
 Detailed description available in the User Guidelines!
 
