@@ -10,13 +10,13 @@ Time-Series cultivar coefficient Estimator for DSSAT models.
 
 In order to check what version of TSE you are running, start TSE from within DSSAT shell "Accessories" section and on top of TSE interface window TSE version is written!
 
-If you are running the TSE from DSSAT shell "Accessories" section and get Error or, it looks like the TSE is not optimizing coefficients, then download "TSE.7z" (file zipped with 7zip software) from this GitHub repository (which is currently TSE version 3.1).
+If you are running the TSE from DSSAT shell "Accessories" section and get Error or, it looks like the TSE is not optimizing coefficients, then download "TSE.zip" (file zipped) from this GitHub repository (which is currently TSE version 4.2).
 
 Before continuing with next step make a copy of TSE directory available in "C:\DSSAT48\Tools" that you can restore, if something goes wrong.
 
-After downloading "TSE.7z" and unzipping it on your PC, copy "TSE.exe" (from unzipped file) and replace "TSE.exe" in the "C:\DSSAT48\Tools\TSE" directory.
+After downloading "TSE.zip" and unzipping it on your PC, copy the content of TSE folder to the "C:\DSSAT48\Tools\TSE" directory (including: "TSE.exe", "yes.ico", "no.ico, "TSE.ico", "PhenologicalEventsDAP.txt" and "ParameterProperty.txt").
 
-After replacing the "TSE.exe" in the TSE directory, the file path should look like this: "C:\DSSAT48\Tools\TSE\TSE.exe". Only one "TSE" directory should be in the path "C:\DSSAT48\Tools\TSE" (potential multiple TSE directories are created due to unzipping procedure). 
+After adding the files to the TSE directory, the file path should look like this: "C:\DSSAT48\Tools\TSE\TSE.exe".
 
 If the steps are implemented as instructed, then the new version will be executed from within the DSSAT shell "Accessories" section with TSE push button.
 
@@ -37,8 +37,12 @@ If the steps are implemented as instructed, then the new version will be execute
 │       ├── XBuild
 │       ├── ...
 │       └── TSE
-│           ├── ...
-│           └── TSE.exe	
+│           ├── TSE.exe
+│           ├── yes.ico
+│           ├── no.ico
+│           ├── TSE.ico
+│           ├── PhenologicalEventsDAP.txt
+│           └── ParameterProperty.txt
 
 After executing "TSE.exe" a working directory "TSE_workspace" is created where optimization is conducted and optimization output files saved:
 
@@ -55,7 +59,9 @@ After executing "TSE.exe" a working directory "TSE_workspace" is created where o
 │       ├── *.ECO
 │       ├── *_backup.CUL	
 │       ├── *_backup.ECO
-│       ├── ...	
+│       ├── ...
+│       ├── TSE_Opt_Comb.txt  <- In this file original and TSE "optimal" coefficient combinations are located.
+│       ├── ...	  
 │       └── PlantGro.OUT
 </pre>
 ------------------------------------------------------------------------------------------------------------
